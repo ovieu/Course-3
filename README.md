@@ -21,6 +21,55 @@ After the course, students are able to:
 * Monitor and analyze **telemetry** data.
 * Implement **resilience testing** on production environments (e.g., Chaos Monkey).
 
+## Schedule and Topics—Spring 2020
+
+Location: Monteith Engineering Research Center, Room 0313, 1:30-2:45pm.
+
+*The following schedule is subject to change.*
+
+Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-devops-modern-software-engineering-practices/?display=course-home).
+
+| Class    | Topics                           |  Resources | Assignments       |
+|----------|----------------------------------|------------| ----------------  |
+|  ➡️       | [Setup](Boot.md)             | 🥾[Engineering Basics](https://github.com/chrisparnin/EngineeringBasics) 🥾
+| Jan 7    | [Intro+Computing Environments](https://docs.google.com/presentation/d/16PWFvEY_qVIbL1FsOgCATIsY-FgUiBaXhw2C1s1anQA/edit)
+| Jan 9    | [Provisioning](https://github.com/CSC-DevOps/Provision) | [Cloud Providers](HW/Cloud-Providers.md) | [HW0](HW/HW0-Provision.md) 
+| <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
+| Jan 14   | [Continuous Deployment Concepts](https://docs.google.com/presentation/d/1w5QnWQUciQAq-NA12AI14gv6evv6oONnljcPCF29JDY/edit#slide=id.g6d986c4882_1_0) | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  
+| Jan 16   | [Virtualization Workshop](https://github.com/CSC-DevOps/VM)
+| Jan 21   | [Virtualization concepts](https://docs.google.com/presentation/d/1VdSRYFxTFvdJvxq4JZMn7itdYJjiutrpj525Kw2JX-U/edit) | | [HW1](HW/HW1-V.md)
+| Jan 23   | [Containers/Docker Workshop](https://github.com/CSC-DevOps/Containers)
+| <tr><th colspan=4> ⚗️ &nbsp;&nbsp;&nbsp;Configuration Management&nbsp;&nbsp;&nbsp; 🎛️</th></tr> |
+| Jan 28  | [CM](https://docs.google.com/presentation/d/1i18CWaZaiBBWPlT71iOuEPYYaZcK1VMvtdynwCLAVU0/edit#slide=id.g6e582f9f77_0_0)
+| Jan 30  | [Building Configuration Server](https://github.com/CSC-DevOps/CM) | | [HW2](HW/HW2-mm.md)
+| Feb 4   | [Ansible Playbooks](https://github.com/CSC-DevOps/CM/blob/master/Playbooks.md)
+| Feb 6   | Slim/Packer
+| <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
+| Feb 11   | [Pipelines, CI/CD](https://docs.google.com/presentation/d/1vEp14SgKc0hC4-RrjZ1rzFMgK2kr3W7p70ra5_sUOUY/edit) | [Verifying Pipelines](Readings/DesirableProperties.pdf) | [Build Milestone](Project/Pipeline1.md)
+| Feb 13   | [Building Basic Pipelines](https://github.com/CSC-DevOps/Pipelines)
+| Feb 18   | [Jenkins](https://docs.google.com/presentation/d/1oEJQ953LUQ1rYhRMKL-B262Bx8rkENW2aaAj-2e_N7I/edit#slide=id.p)
+| Feb 20   | Project Workday
+| <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
+| Feb 25   | [Testing + Analysis concepts](https://docs.google.com/presentation/d/1PY5D1TAn9W7spSMS--B4zt8JwBXAJY4apx36N9so55I/edit#slide=id.g7e3970db34_0_58)
+| Feb 27   | [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing)
+| Mar 3    | [Test suites analysis and coverage workshop](https://github.com/CSC-DevOps/TestSuites)
+| Mar 5    | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity) | | [Test Milestone](Project/Pipeline2.md)
+| Mar 9--19| 🌱SPRING BREAK 🌱
+| <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure+Deploy&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
+| Mar 24   | [Infrastructure concepts](https://docs.google.com/presentation/d/1HjPY0979qEVkN7mJhcjxA7LYXubBpHWwj84BcItbzwo/edit#slide=id.g720af242e7_0_5)
+| Mar 26   | [Building Caches and Queues with Redis](https://github.com/CSC-DevOps/Caches) | | [HW3](HW/HW3.md)
+| Mar 31   | Deploy Strategies and feature flags
+| Apr 2    | Clusters
+| <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
+| Apr 7    | Monitoring
+| Apr 9    | Monitoring
+| Apr 14   | Incidents
+| Apr 16   | Incidents
+| Apr 21   | Resilience engineering
+| Apr 23   | Chaos engineering
+| <tr><th colspan=4> 🎬&nbsp;&nbsp;&nbsp;Closing&nbsp;&nbsp;&nbsp; 💯</th></tr> |
+| May 5    | Final Exam (1:00--4:00pm)|          |                   |
+
 ### Project
 
 The primary objective of the course will be to allow students to gain experience in incrementally building a continous delivery pipeline from scratch.  Throughout the semester, students are expected to complete a component of the pipeline by each milestone deadline.
@@ -31,49 +80,7 @@ Details on requirements for milestones will be released throughout the course.  
 
 [ CM ] -> [ BUILD+TEST+ANALYSIS ] -> [ DEPLOY ] -> [ SPECIAL ]
 
-## Schedule and Topics—Spring 2019
-
-Location: Engineering Building I, Room 1005, 10:15--11:30am.
-
-*The following schedule is subject to change.*
-
-| Class    | Topics                           |  Resources | Assignments       |
-|----------|----------------------------------|------------| ----------------  |
-| Jan 7    | [Pipeline Basics](https://github.com/CSC-DevOps/Pipelines) | [Get a Handle on the Basics](https://github.com/chrisparnin/EngineeringBasics)           |  [HW0](HW/HW0-Pipelines.md)                  |
-| Jan 9    | Computing Environments | | |
-| Jan 14   | [Core Concepts](https://docs.google.com/presentation/d/1-LyXc798R08AaPQI4yCVCCVZryP0kgQY5KqQgzAfmuc/edit#slide=id.g24e9a36457_3_292) |  [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)        |
-| Jan 16   | [Provisioning workshop](https://github.com/CSC-DevOps/Provision) |   |[HW1](HW/HW1-A.md) |
-| Jan 21   | No class         |            |                |
-| Jan 23   | [Configuration Management](https://docs.google.com/presentation/d/1PO_QTieMkRvW9MDEIMVS0dD5bk50fK5fvSgj5zNyPfw/edit#slide=id.g117c3bc2e1_0_0)  |             | 
-| Jan 28   | [Ansible](https://github.com/CSC-DevOps/CM#configuration-management-workshop)                   |            |                [HW2](HW/HW2-mm.md)   |
-| Jan 30   | ... | |
-| Feb 4    | [Build](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.g1a769f3281_0_0)                          |            | [CM+Build Milestone](Project/CM.md) |
-| Feb 6    | [Build server workshop]()            |            |                   |
-| Feb 11   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit)         |            |                   |
-| Feb 13   | [Suites](https://github.com/CSC-DevOps/TestSuites)               |            |                   |
-| Feb 18   | [Fuzzing](https://github.com/CSC-DevOps/Fuzzing)                 |            |  |
-| Feb 20   | Team Work Day           |            |         |
-| Feb 25   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit)                |            |  [Test+Analysis Milestone](Project/BuildTestAnalysis.md)                 |
-| Feb 27   | [Complexity](https://github.com/CSC-DevOps/Complexity)              |            |                   |
-| Mar 4    | Deploy                  |            |                   |
-| Mar 6    | [Deploy Strategies](https://docs.google.com/presentation/d/1J3oDEPSGzDGa0B41Ppe8yA02tYicSgstVXHU5mGxU5w/edit#slide=id.g1da8fd6af9_0_0)       |            |                   |
-| Mar 11   | SPRING                  |            |                   |
-| Mar 15   | BREAK                   |            |                   |
-| Mar 18   | [Operation Concepts](https://docs.google.com/presentation/d/19TYz-XK5ou3mZP9I5a_Hp44ZQ-MsLK27yQyUaR1D8tc/edit#slide=id.g3527d62d8d_0_0)      |            |              |
-| Mar 20   | [Feature Flags/Redis](https://github.com/CSC-DevOps/Queues)|            |                |
-| Mar 25   |                         |            |                   |
-| Mar 27   |                         |            |                   |
-| Apr 1    | [Monitoring/Analysis](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit#slide=id.p)|            |        [DEPLOY+INFRA+Special Milestone](Project/M3.md)            |
-| Apr 3    | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring)     |            |                   |
-| Apr 8    | [Chaos Engineering](https://docs.google.com/presentation/d/1ZVRquK72cxqqSIY0OWU9wnA33UKDEPWz5UIcM2YBtJQ/edit#slide=id.p)       |  [Notes on Resilience Engineering](https://github.com/lorin/resilience-engineering)          |                   |
-| Apr 10   | [Chaos Workshop](https://github.com/CSC-DevOps/Chaos)          |            |                   |
-| Apr 15   | Tech Talks              |            |                   |
-| Apr 17   | Tech Talks              |            |                   |
-| Apr 22   | Demos                   |            |                   |
-| Apr 24   | Demos                   |            |                   |
-| May 1    | Final Exam (8:00--11:00am)|          |                   |
-
-### Resources
+### Communication channels
 
 * [Mattermost](https://chat.alt-code.org)  
 * [NC State - Stack Overflow](https://stackoverflow.com/c/ncsu/)
@@ -99,6 +106,7 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 
 ## Past versions
 
+* [Spring 2019](https://github.com/CSC-DevOps/Course/tree/Spring2019)
 * [Spring 2018](https://github.com/CSC-DevOps/Course/tree/Spring2018)
 * [Fall 2017](https://github.com/CSC-DevOps/Course/tree/Fall2017)
 * [Spring 2017](https://github.com/CSC-DevOps/Course/tree/Spring2017)
