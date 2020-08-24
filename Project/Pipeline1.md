@@ -4,7 +4,7 @@ For this milestone and project, you will work in teams of 3 people.
 
 ## General Tasks
 
-* Automatically configure a jenkins server.
+* Automatically configure a build server with jenkins and ansible.
 * Automatically configure a build environment for a node web application (checkbox.io).
 * Create a build job.
 
@@ -19,20 +19,23 @@ You must provide the following two commands:
 ```
 # Configure jenkins and build environment
 $ pipeline setup
+# This command should copy a .vault-pass file, with the password "csc-devops-2020" from the host to VM home directory. The .vault-pass file should be excluded from source control_. 
 
 # Trigger a build job (named checkbox.io), wait for output, and print build log.
-$ pipeline build checkbox.io
+$ pipeline build checkbox.io -u <admin> -p <admin>
+
 ```
 
 You may find some parts of the template for [CM homework](https://github.com/CSC-DevOps/CM-Template) useful for reuse. For triggering the build job and retrieving the build log, you may consider using the [jenkins](https://www.npmjs.com/package/jenkins) npm package or using curl with the [remote api](https://wiki.jenkins.io/display/JENKINS/Remote+access+API).
 
 ##### Constraints
 
-* Use bakerx as local provisioner for your VM (named "jenkins-srv").
-* Assign static ip address 192.168.33.20 for jenkins server. 
+* Use bakerx as local provisioner for your VM (named "config-srv"). Keep ansible and jenkins on the same VM.
+* Assign static ip address 192.168.33.20 for your VM. 
 * Use ansible for configuration. No credit given for use of ansible galaxy roles.
 * Run jenkins server on port 9000.
-* There is no required jenkins plugin; however, you will want to install anything that makes creating your build job easier.
+* Use `admin:admin` as username and password for jenkins
+* Install jenkins-plugins needed to use Pipelines style build jobs.
 
 ### 🛠️Automatically configure a build environment (checkbox.io)
 
@@ -61,11 +64,12 @@ The build job should perform the following build steps.
 * Start mongodb (if not already running as service).
 * Start `server-side/site/server.js`.
 * Successfully pass `npm test` (as provided in server-side/site/package.json)
-* Tear down services.
+* Tear down services (e.g., checkbox.io server.js).
 
 ##### Constraints:
 
-* You cannot manually create the build job. You must use [jenkins-job-builder](https://docs.openstack.org/infra/jenkins-job-builder/) or [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile/).
+* You cannot manually create the build job. You must use [jenkins-job-builder](https://docs.openstack.org/infra/jenkins-job-builder/) or a template of the config.xml file.
+* Use a pipeline style build job.
   
 ## Team responsibilities
 
@@ -83,10 +87,9 @@ _Points will be deducted for non-contributing members, including receiving zero 
 
 ##### Checkpoint
 
-There will be two checkpoints where you will be required to report interim progress (CHECKPOINT.md).
+There will be checkpoints where you will be required to report interim progress (CHECKPOINT.md).
 
-* Checkpoint 1 due: 2/19
-* Checkpoint 2 due: 2/26
+* Checkpoint 1 due: June 17th
 
 Document your current progress and team contributions. Note work you have completed and what work will be done next. You may find it useful to take screenshots of your GitHub Projects.
 
@@ -112,7 +115,9 @@ _Points will be deducted for non-contributing members, including receiving zero 
 
 ## Submission
 
-Commit your all your work related to your project into your designated repository before the final deadline. Create a branch called `M1` to hold a snapshot of your work related to this milestone.
+Commit your all your work related to your project into your designated repository in the master branch before the final deadline. 
+
+When you have finished the submission, create a branch called `M1` to hold a snapshot of your work related to this milestone.
 
 Ensure your repository contains:
 
@@ -121,4 +126,4 @@ Ensure your repository contains:
 * a CHECKPOINT.md, with your two checkpoint reports.
 * a link to screencast that demostrates each task.
 
-**Due Wednesday, March 4th, before midnight.**
+**Due Monday, June 22nd, before midnight.**

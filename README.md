@@ -68,25 +68,25 @@ Jul 28 Exam -->
 | Jun 7   | [Building Configuration Server](https://github.com/CSC-DevOps/CM) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/1ecc2a2701d8410cb1e1be67279419b31d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | | 
 |   | [Ansible Playbooks](https://github.com/CSC-DevOps/CM/blob/master/Playbooks.md) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/08874911d6d54ecb9455ca3bda5997891d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
-| Jun 9   | [Pipelines, CI/CD](https://docs.google.com/presentation/d/1vEp14SgKc0hC4-RrjZ1rzFMgK2kr3W7p70ra5_sUOUY/edit) | [Verifying Pipelines](Readings/DesirableProperties.pdf) | [Build Milestone](Project/Pipeline1.md)
-| Jun 11   | [Building Basic Pipelines](https://github.com/CSC-DevOps/Pipelines)
-| Jun 16   | [Jenkins](https://docs.google.com/presentation/d/1oEJQ953LUQ1rYhRMKL-B262Bx8rkENW2aaAj-2e_N7I/edit#slide=id.p)
+| Jun 9   | [Pipelines, CI/CD](https://docs.google.com/presentation/d/1vEp14SgKc0hC4-RrjZ1rzFMgK2kr3W7p70ra5_sUOUY/edit) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/10dabcb531c04b0592c511f14abb6cdb1d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | [Verifying Pipelines](Readings/DesirableProperties.pdf)   | [Build Milestone](Project/Pipeline1.md)
+| Jun 11   | [Building Basic Pipelines](https://github.com/CSC-DevOps/Pipelines) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/7d49600376d6428ba904b788b6358ce31d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | [Workshop Attendance Form](https://docs.google.com/forms/d/e/1FAIpQLSexYYV6KYOuPfnZRDXxvXGphjBZfz82EWP_QZLoPtPT-hVTtg/viewform?usp=sf_link)
+| Jun 16   | [Jenkins](https://docs.google.com/presentation/d/1oEJQ953LUQ1rYhRMKL-B262Bx8rkENW2aaAj-2e_N7I/edit#slide=id.p) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/e215a5bfc6854596a08b5e1d8db240641d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
-| Jun 23   | [Testing + Analysis concepts](https://docs.google.com/presentation/d/1PY5D1TAn9W7spSMS--B4zt8JwBXAJY4apx36N9so55I/edit#slide=id.g7e3970db34_0_58) | | [Test Milestone](Project/Pipeline2.md)
-| Jun 25   | [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing)
-| Jun 30   | [Test suites analysis and coverage workshop](https://github.com/CSC-DevOps/TestSuites)
-| Jul 2    | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity) | | 
+| Jun 23   | [Testing + Analysis concepts](https://docs.google.com/presentation/d/1PY5D1TAn9W7spSMS--B4zt8JwBXAJY4apx36N9so55I/edit#slide=id.g7e3970db34_0_58) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/6caeec26d87f49809d115dd8d0af5ea41d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | | [Test Milestone](Project/Pipeline2.md)
+| Jun 25   | [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/56b99f9e8bb2474394635902f384abee1d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
+| Jun 30   | [Test suites analysis and coverage workshop](https://github.com/CSC-DevOps/TestSuites) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/adb2773bb1e94675a45731cce5a9cf701d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
+| Jul 2    | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/300d81b262cc486881a70575fc7f6f681d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | | 
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure+Deploy&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
-| Jul 7  | [Infrastructure concepts](https://docs.google.com/presentation/d/1HjPY0979qEVkN7mJhcjxA7LYXubBpHWwj84BcItbzwo/edit#slide=id.g720af242e7_0_5) | |  [Deploy Milestone](Project/Pipeline3.md)
-| Jul 9   | [Building Caches and Queues with Redis](https://github.com/CSC-DevOps/Caches) | | [HW3](HW/HW3.md) 
-| Jul 14   | [Deploy Strategies and Feature flags](https://docs.google.com/presentation/d/1O26CMKrFE-UCqV5AQ5VNiCWv3x-XF0IfI0McIhxlMcw/edit)
-|     | [Deployment Workshop](https://github.com/CSC-DevOps/Deployment) | |
-| Jul 16    | [Monitoring](https://docs.google.com/presentation/d/1f_yw2KS02Uzt-3qnadk9wjiKS0sgBsxSOpQIxd8YaJ0/edit#slide=id.g73980477ab_0_0)
-|     | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring) | | [HW4](HW/HW4-monitor.md)
+| Jul 7  | [Infrastructure concepts](https://docs.google.com/presentation/d/1HjPY0979qEVkN7mJhcjxA7LYXubBpHWwj84BcItbzwo/edit#slide=id.g720af242e7_0_5) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/25adf31c4bd14f8aaad531f134b5ce0a1d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | |  [Deploy Milestone](Project/Pipeline3.md)
+| Jul 9   | [Building Caches and Queues with Redis](https://github.com/CSC-DevOps/Caches)  | | [HW3](HW/HW3.md) 
+| Jul 14   | [Deploy Strategies and Feature flags](https://docs.google.com/presentation/d/1O26CMKrFE-UCqV5AQ5VNiCWv3x-XF0IfI0McIhxlMcw/edit) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/f05704efc0fe4cdaae4aa778ceb6f5a01d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
+|     | [Deployment Workshop](https://github.com/CSC-DevOps/Deployment)  | |
+| Jul 16    | [Monitoring](https://docs.google.com/presentation/d/1f_yw2KS02Uzt-3qnadk9wjiKS0sgBsxSOpQIxd8YaJ0/edit#slide=id.g73980477ab_0_0) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/5de485dd6c7443c5ac43b40fea2a6ade1d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
+|     | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring)  | | [HW4](HW/HW4-monitor.md)
 | <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
 | Jul 21   | [Incidents](https://learning.acm.org/techtalks/reliability) | [Slides](https://learning.acm.org/binaries/content/assets/leaning-center/webinar-slides/2020/oops_techtalk_lorinhochstein_slides.pdf) |
 |    | [Incident call](https://www.pagerduty.com/blog/incident-response-reenactment/)
-| Jul 23   | [Feature experiments and chaos engineering](https://docs.google.com/presentation/d/1a4BJ0lUkis9x0HQy3YPOaTWw-wJfktwyE3Mw7AnGfmE/edit#slide=id.g74b88b11b0_0_73)
+| Jul 23   | [Feature experiments and chaos engineering](https://docs.google.com/presentation/d/1a4BJ0lUkis9x0HQy3YPOaTWw-wJfktwyE3Mw7AnGfmE/edit#slide=id.g74b88b11b0_0_73) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/aeef7b8607fb4c44a8d0e02c028ae8a71d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
 |    | [Chaos engineering workshop](https://github.com/CSC-DevOps/Chaos)
 | <tr><th colspan=4> 🎬&nbsp;&nbsp;&nbsp;Closing&nbsp;&nbsp;&nbsp; 💯</th></tr> |
 | Jul 28    | Final Exam (6am--23:59pm) |          |                   |
